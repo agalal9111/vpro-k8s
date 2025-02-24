@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: memcache-deployment
+  name: rmq-deployment
   labels:
     app: rb
 spec:
